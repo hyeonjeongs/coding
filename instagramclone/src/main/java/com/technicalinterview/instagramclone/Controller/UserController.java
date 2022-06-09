@@ -25,4 +25,5 @@ public class UserController {
     private Users getUserDetails(@PathVariable("userId") String userId){
         return userService.displayUserMetaData(userId);
     }
+
 }
