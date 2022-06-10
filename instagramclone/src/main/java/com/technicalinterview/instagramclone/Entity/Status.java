@@ -1,11 +1,12 @@
 package com.technicalinterview.instagramclone.Entity;
 
+import org.springframework.context.annotation.ComponentScan;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.sql.Timestamp;
 
-@Entity(name = "Status")
 public class Status {
     @Id
     @GeneratedValue

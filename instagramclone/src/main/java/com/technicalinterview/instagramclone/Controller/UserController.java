@@ -3,9 +3,11 @@ package com.technicalinterview.instagramclone.Controller;
 import com.technicalinterview.instagramclone.Entity.Users;
 import com.technicalinterview.instagramclone.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
+@ComponentScan(basePackages = "com.technicalinterview.instagramclone.Entity")
 @RequestMapping("/users")
 public class UserController {
 

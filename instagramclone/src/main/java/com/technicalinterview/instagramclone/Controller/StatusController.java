@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 
-@ComponentScan(basePackages = "com.technicalinterview.instagramclone")
 @RestController
 @RequestMapping("/status")
 public class StatusController {
