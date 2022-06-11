@@ -30,6 +30,5 @@ public class StatusController {
     @GetMapping
     private ArrayList<Status> getAllStatus() {
         return statusService.retrieveStatus();
-
     }
 }
