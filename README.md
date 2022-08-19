@@ -5,4 +5,4 @@
 Backend : node.js, spring,  java
 Frondend : kotlin, android
 
-" 직접 구현해보기
+> 직접 구현해보기
