@@ -1,4 +1,8 @@
 # codes
  Coding Study
  
- java, node.js, spring, kotlin, android 공부
+### ✅ Stack
+Backend : node.js, spring,  java
+Frondend : kotlin, android
+
+" 직접 구현해보기
